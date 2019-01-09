@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
+<meta name="viewport" content="width=1280, initial-scale=1">
 <link rel="stylesheet" href="CSS\customise.css">
 <link href='https://fonts.googleapis.com/css?family=Yantramanav' rel='stylesheet'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script var siteWidth = 1280;
+var scale = screen.width /siteWidth
+
+document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+</script>
 </head>
 <body>
 <div class="logo-cont">
