@@ -231,7 +231,9 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 @viewport {
   width: device-width ;
-  zoom: 1.0 ;
+}
+.nav-cont{
+	max-width:100;
 }
 }
 
