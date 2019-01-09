@@ -17,3 +17,8 @@ function SlideShow() {
   Dots[SlideCount-1].className += " active";
   setTimeout(SlideShow, 4000); // Change image every 2 seconds
 }
+
+var siteWidth = 1280;
+var scale = screen.width /siteWidth
+
+document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
