@@ -233,7 +233,7 @@ and (max-device-width : 480px) {
   width: device-width ;
 }
 .nav-cont{
-	max-width:100;
+	width:20%;
 }
 }
 
